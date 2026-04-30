@@ -47,25 +47,34 @@ If an image contains a hidden zip or another image, binwalk will find it:
 ```bash
 # To scan
 binwalk dog.jpg
-```
-![image alt](https://github.com/A070025/VA-W4/blob/main/Picture1.png?raw=true)
-```bash
+
 # To extract
 binwalk -e dog.jpg
 ```
-![image alt](https://github.com/A070025/VA-W4/blob/main/Picture1.png?raw=true)
+![image alt](https://github.com/A070025/VA-W4/blob/main/Picture4.png?raw=true)
 ### 4. Reading Strings
 Used when we need to find text clues without a hex editor:
 ```bash
 strings dog_secret.jpg | tail
 ```
-![image alt](https://github.com/A070025/VA-W4/blob/main/Picture1.png?raw=true)
+![image alt](https://github.com/A070025/VA-W4/blob/main/Picture5.png?raw=true)
+
+```bash
+strings computer.jpg
+```
+![image alt](https://github.com/A070025/VA-W4/blob/main/Picture6.png?raw=true)
+
 ### 5. Verifying File Type
 Never trust the file extension. Use the file command:
 ```bash
 file solitaire.exe
 ```
-![image alt](https://github.com/A070025/VA-W4/blob/main/Picture1.png?raw=true)
+![image alt](https://github.com/A070025/VA-W4/blob/main/Picture7.png?raw=true)
+
+```bash
+file rubiks.jpeg
+```
+![image alt](https://github.com/A070025/VA-W4/blob/main/Picture8.png?raw=true)
 
 ## 💡 Conclusion
 Understanding metadata is crucial in cybersecurity for identifying file manipulation and uncovering hidden data that is not visible through standard applications.
