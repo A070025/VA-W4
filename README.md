@@ -32,6 +32,7 @@ The following tools were utilized during this session:
 By running the command below, we can see the technical details of the file:
 ```bash
 exiftool Ocean.jpg
+<img width="499" height="462" alt="image" src="https://github.com/user-attachments/assets/fc7524e0-0bf3-4ec5-9062-87858a090f24" />
 ```
 ### 2. Analyzing File Headers with Hexeditor
 To check if a file is corrupted or intentionally renamed, we look at the magic bytes:
