@@ -40,6 +40,7 @@ To check if a file is corrupted or intentionally renamed, we look at the magic b
 ```bash
 hexeditor computer.jpg
 ```
+![image alt](https://github.com/A070025/VA-W4/blob/main/Picture2.png?raw=true)
 ### 3. Finding Hidden Data with Binwalk
 If an image contains a hidden zip or another image, binwalk will find it:
 ```bash
