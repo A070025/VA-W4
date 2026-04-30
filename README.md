@@ -33,7 +33,7 @@ By running the command below, we can see the technical details of the file:
 ```bash
 exiftool Ocean.jpg
 ```
-![Ocean Metadata](https://github.com/user-attachments/assets/25768491-634f-4ee1-bf4b-072f4afe1ab8)
+
 
 ### 2. Analyzing File Headers with Hexeditor
 To check if a file is corrupted or intentionally renamed, we look at the magic bytes:
